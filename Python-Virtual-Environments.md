@@ -14,3 +14,12 @@ To install a python package run:
 
 # Leaving the virtual environment
 To deactivate the virtual environment simply run: **deactivate**
+
+# List installed packages
+To list the installed packages: **pip list**  
+Or similar: **pip freeze**
+
+# Keep track of requirements 
+*   You can keep track of requirements by saving the list to a file called **"requirements.txt"**.
+**pip freeze > requirements.txt**
+*   And each time you update a package you will run the same command.
